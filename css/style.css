@@ -48,3 +48,8 @@ nav a:hover {
     color: white;
     background-color: tomato;
 }
+.projetos {
+    background-color: greenyellow;
+    color: black;
+    padding: 20px;
+}

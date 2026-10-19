@@ -1,0 +1,50 @@
+#Sobre{
+    background-color: gold;
+    padding: 20px;
+    color: black;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.imagem-conhecimento{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 90%;
+}
+header{
+   background-color: tomato;
+    color: black;
+}
+article{
+    background-color: greenyellow;
+    color: black;
+}
+.Contato{
+    background-color: cyan;
+    color: black;
+}
+body{
+    background-color: black;
+}
+h1, h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.dados-contato {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: tomato;
+}

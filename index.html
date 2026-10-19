@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Tudo que há dentro de uma tag é um atributo-->
+<html lang="pt-BR">
+    <!--Cabeçalho-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <!--referencia ao arquivo CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Portifólio Completamente Centralizado-->
+    <h2><center>Bem-vindo ao meu Portifólio Pessoal</center></h2>
+
+    <header>
+        <h1><center>Olá meu nome é Gabriel Elias da Silva</center></h1>
+        <nav>
+            <center>
+                <h2><a href="#Sobre">Sobre mim</a></h2>
+                <h2><a href="projetos/segunda_pagina.html">Segunda página</a></h2>
+                <!--Link Externo-->
+                <!--Coloquei o Link do Github pois Ainda não possuo Likedin e Redes Sociais-->
+                <h2> <a href="https://github.com/Gabriel-Elias-Silva" target="_blank">Meu perfil Github</a> </h2>
+                <!--Mais um Link com Ancora Interna-->
+                <h2><a href="#Conhecimentos">Conhecimentos</a></h2>
+            </center>
+        </nav>
+    </header>
+    <!--Conteúdo sobre é o principal da minha página-->
+    <main>
+        <!--Section para agrupar informações relacionada ao sobre mim-->
+        <section id="Sobre">
+            <h2>Sobre mim</h2>
+            <!--Divisão dos três Parágrafos-->
+             <p>Sou Aluno no Curso de <strong>Desenvolvimento de Software Multiplataforma</strong></p>
+            <p>Sou uma pessoa interessada em <strong>tecnologia</strong> e em aprender coisas novas.</p>
+            <p>Atualmente, estou me desenvolvendo na área de programação e desenvolvimento de software, buscando adquirir conhecimentos que possam contribuir para minha formação acadêmica e profissional.</p> 
+            <p>Também procuro desenvolver minha comunicação, trabalhar bem em equipe e aprimorar minhas habilidades por meio de novos desafios e experiências.</p>
+        </section>
+
+        <!--Article para o conteudo importante dentro da página-->
+        <article>
+            <h2>Habilidades</h2>
+            <p>Tenho <strong>desenvoltura para apresentações em público</strong> e facilidade de comunicação.
+            Considero importante estar sempre <strong><em>aprendendo e evoluindo</em></strong> tanto academicamente quanto profissionalmente.</p>
+            <ul>
+                <h3 id="Conhecimentos"> Conhecimentos</h3>
+                <li>Conhecimento em Arduino</li>
+                <!--Imagem 1-->
+                <img class="imagem-conhecimento" 
+                src="img/Arduino.png" alt="Logo do Arduino" width="200">
+                <li>Comunicação clara e objetiva</li>
+                <li>Facilidade em trabalho em equipe</li>
+                <li>Interessado em aprender novas tecnologias</li>
+                <li>Inglês intermediário</li>
+                <!--Imagem 2-->
+                <img class="imagem-conhecimento"
+                src="img/USA.jpg" alt="Bandeira Dos Estados Unidos" width="200">
+            </ul> 
+            <!--Criação da tabela com Habilidade X Nivel-->
+            <h3>Nível das minhas habilidades</h3>
+            <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Habilidade</th>
+            <th>Nível</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Arduino</td>
+            <td>Básico</td>
+        </tr>
+
+        <tr>
+            <td>Inglês</td>
+            <td>Intermediário</td>
+        </tr>
+
+        <tr>
+            <td>Comunicação</td>
+            <td>Bom</td>
+        </tr>
+
+        <tr>
+            <td>Trabalho em equipe</td>
+            <td>Bom</td>
+        </tr>
+    </tbody>
+
+</table>
+        </article>
+    </main>
+    <section class="Contato">
+    <h2>Contato</h2>
+    <section class="dados-contato">
+    <p>Email: <strong>gabrieleliasdasilva117@gmail.com</strong><br>
+    Telefone: <strong>+55 11 94121-5036</strong></p>
+    </section>
+</footer><center>© 2026 Gabriel Elias da Silva. Todos os direitos reservados.</center></footer>   
+    </section>
+    
+</body>
+</html>
